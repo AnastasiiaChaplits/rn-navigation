@@ -1780,6 +1780,48 @@
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@react-native/polyfills/-/polyfills-2.0.0.tgz"
   integrity sha1-TEC3RlXIOYLIz0dTDufcE9lXtqo=
 
+"@react-navigation/core@^6.4.10":
+  version "6.4.10"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@react-navigation/core/-/core-6.4.10.tgz#0c52621968b35e3a75e189e823d3b9e3bad77aff"
+  integrity sha1-DFJiGWizXjp14YnoI9O547rXev8=
+  dependencies:
+    "@react-navigation/routers" "^6.1.9"
+    escape-string-regexp "^4.0.0"
+    nanoid "^3.1.23"
+    query-string "^7.1.3"
+    react-is "^16.13.0"
+    use-latest-callback "^0.1.7"
+
+"@react-navigation/elements@^1.3.21":
+  version "1.3.21"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@react-navigation/elements/-/elements-1.3.21.tgz#debac6becc6b6692da09ec30e705e476a780dfe1"
+  integrity sha1-3rrGvsxrZpLaCeww5wXkdqeA3+E=
+
+"@react-navigation/native-stack@^6.9.17":
+  version "6.9.17"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@react-navigation/native-stack/-/native-stack-6.9.17.tgz#4fc370b14be07296423ae8c00940fb002c6001b5"
+  integrity sha1-T8NwsUvgcpZCOujACUD7ACxgAbU=
+  dependencies:
+    "@react-navigation/elements" "^1.3.21"
+    warn-once "^0.1.0"
+
+"@react-navigation/native@^6.1.9":
+  version "6.1.9"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@react-navigation/native/-/native-6.1.9.tgz#8ef87095cd9c2ed094308c726157c7f6fc28796e"
+  integrity sha1-jvhwlc2cLtCUMIxyYVfH9vwoeW4=
+  dependencies:
+    "@react-navigation/core" "^6.4.10"
+    escape-string-regexp "^4.0.0"
+    fast-deep-equal "^3.1.3"
+    nanoid "^3.1.23"
+
+"@react-navigation/routers@^6.1.9":
+  version "6.1.9"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@react-navigation/routers/-/routers-6.1.9.tgz#73f5481a15a38e36592a0afa13c3c064b9f90bed"
+  integrity sha1-c/VIGhWjjjZZKgr6E8PAZLn5C+0=
+  dependencies:
+    nanoid "^3.1.23"
+
 "@segment/loosely-validate-event@^2.0.0":
   version "2.0.0"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@segment/loosely-validate-event/-/loosely-validate-event-2.0.0.tgz"
@@ -2676,6 +2718,11 @@ decamelize@^1.2.0:
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/decamelize/-/decamelize-1.2.0.tgz"
   integrity sha1-9lNNFRSCabIDUue+4m9QH5oZEpA=
 
+decode-uri-component@^0.2.2:
+  version "0.2.2"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/decode-uri-component/-/decode-uri-component-0.2.2.tgz#e69dbe25d37941171dd540e024c444cd5188e1e9"
+  integrity sha1-5p2+JdN5QRcd1UDgJMREzVGI4ek=
+
 deep-extend@^0.6.0:
   version "0.6.0"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/deep-extend/-/deep-extend-0.6.0.tgz"
@@ -2830,6 +2877,11 @@ escape-string-regexp@^1.0.5:
   version "1.0.5"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
+
+escape-string-regexp@^4.0.0:
+  version "4.0.0"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/escape-string-regexp/-/escape-string-regexp-4.0.0.tgz#14ba83a5d373e3d311e5afca29cf5bfad965bf34"
+  integrity sha1-FLqDpdNz49MR5a/KKc9b+tllvzQ=
 
 esprima@^4.0.0, esprima@~4.0.0:
   version "4.0.1"
@@ -2989,6 +3041,11 @@ expo@47.0.0:
   optionalDependencies:
     expo-error-recovery "~4.0.1"
 
+fast-deep-equal@^3.1.3:
+  version "3.1.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz#3a7d56b559d6cbc3eb512325244e619a65c6c525"
+  integrity sha1-On1WtVnWy8PrUSMlJE5hmmXGxSU=
+
 fast-glob@^3.2.5, fast-glob@^3.2.9:
   version "3.3.2"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/fast-glob/-/fast-glob-3.3.2.tgz"
@@ -3055,6 +3112,11 @@ fill-range@^7.0.1:
   integrity sha1-GRmmp8df44ssfHflGYU12prN2kA=
   dependencies:
     to-regex-range "^5.0.1"
+
+filter-obj@^1.1.0:
+  version "1.1.0"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/filter-obj/-/filter-obj-1.1.0.tgz#9b311112bc6c6127a16e016c6c5d7f19e0805c5b"
+  integrity sha1-mzERErxsYSehbgFsbF1/GeCAXFs=
 
 finalhandler@1.1.2:
   version "1.1.2"
@@ -4539,6 +4601,11 @@ mz@^2.7.0:
     object-assign "^4.0.1"
     thenify-all "^1.0.0"
 
+nanoid@^3.1.23:
+  version "3.3.7"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nanoid/-/nanoid-3.3.7.tgz#d0c301a691bc8d54efa0a2226ccf3fe2fd656bd8"
+  integrity sha1-0MMBppG8jVTvoKIibM8/4v1la9g=
+
 ncp@~2.0.0:
   version "2.0.0"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/ncp/-/ncp-2.0.0.tgz"
@@ -4999,6 +5066,16 @@ qs@6.7.0:
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/qs/-/qs-6.7.0.tgz"
   integrity sha1-QdwaAV49WB8WIXdr4xr7KHapsbw=
 
+query-string@^7.1.3:
+  version "7.1.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/query-string/-/query-string-7.1.3.tgz#a1cf90e994abb113a325804a972d98276fe02328"
+  integrity sha1-oc+Q6ZSrsROjJYBKly2YJ2/gIyg=
+  dependencies:
+    decode-uri-component "^0.2.2"
+    filter-obj "^1.1.0"
+    split-on-first "^1.0.0"
+    strict-uri-encode "^2.0.0"
+
 querystringify@^2.1.1:
   version "2.2.0"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/querystringify/-/querystringify-2.2.0.tgz"
@@ -5050,10 +5127,20 @@ react-dom@18.1.0:
     loose-envify "^1.1.0"
     scheduler "^0.22.0"
 
+react-freeze@^1.0.0:
+  version "1.0.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-freeze/-/react-freeze-1.0.3.tgz#5e3ca90e682fed1d73a7cb50c2c7402b3e85618d"
+  integrity sha1-XjypDmgv7R1zp8tQwsdAKz6FYY0=
+
 "react-is@^16.12.0 || ^17.0.0 || ^18.0.0":
   version "18.2.0"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-is/-/react-is-18.2.0.tgz"
   integrity sha1-GZQx7qqi4J+GQn77tPFHPttHYJs=
+
+react-is@^16.13.0:
+  version "16.13.1"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
+  integrity sha1-eJcppNw23imZ3BVt1sHZwYzqVqQ=
 
 react-is@^17.0.1:
   version "17.0.2"
@@ -5074,6 +5161,19 @@ react-native-gradle-plugin@^0.70.3:
   version "0.70.3"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-native-gradle-plugin/-/react-native-gradle-plugin-0.70.3.tgz"
   integrity sha1-y88GGcv73aqRKHAaote0FF+cT8g=
+
+react-native-safe-area-context@4.4.1:
+  version "4.4.1"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-native-safe-area-context/-/react-native-safe-area-context-4.4.1.tgz#239c60b8a9a80eac70a38a822b04c0f1d15ffc01"
+  integrity sha1-I5xguKmoDqxwo4qCKwTA8dFf/AE=
+
+react-native-screens@~3.18.0:
+  version "3.18.2"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-native-screens/-/react-native-screens-3.18.2.tgz#d7ab2d145258d3db9fa630fa5379dc4474117866"
+  integrity sha1-16stFFJY09ufpjD6U3ncRHQReGY=
+  dependencies:
+    react-freeze "^1.0.0"
+    warn-once "^0.1.0"
 
 react-native-web@~0.18.9:
   version "0.18.12"
@@ -5569,6 +5669,11 @@ source-map@^0.7.3:
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/source-map/-/source-map-0.7.4.tgz"
   integrity sha1-qbvnBcnYhG9OCP9nZazw8bCJhlY=
 
+split-on-first@^1.0.0:
+  version "1.1.0"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/split-on-first/-/split-on-first-1.1.0.tgz#f610afeee3b12bce1d0c30425e76398b78249a5f"
+  integrity sha1-9hCv7uOxK84dDDBCXnY5i3gkml8=
+
 split@^1.0.1:
   version "1.0.1"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/split/-/split-1.0.1.tgz"
@@ -5614,6 +5719,11 @@ stream-buffers@2.2.x:
   version "2.2.0"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/stream-buffers/-/stream-buffers-2.2.0.tgz"
   integrity sha1-kdX1Ew0c75bc+n9yaUUYh0HQnuQ=
+
+strict-uri-encode@^2.0.0:
+  version "2.0.0"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/strict-uri-encode/-/strict-uri-encode-2.0.0.tgz#b9c7330c7042862f6b142dc274bbcc5866ce3546"
+  integrity sha1-ucczDHBChi9rFC3CdLvMWGbONUY=
 
 string-width@^4.1.0, string-width@^4.2.0:
   version "4.2.3"
@@ -6033,6 +6143,11 @@ url-parse@^1.5.9:
     querystringify "^2.1.1"
     requires-port "^1.0.0"
 
+use-latest-callback@^0.1.7:
+  version "0.1.9"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/use-latest-callback/-/use-latest-callback-0.1.9.tgz#10191dc54257e65a8e52322127643a8940271e2a"
+  integrity sha1-EBkdxUJX5lqOUjIhJ2Q6iUAnHio=
+
 use-sync-external-store@^1.0.0:
   version "1.2.0"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/use-sync-external-store/-/use-sync-external-store-1.2.0.tgz"
@@ -6091,6 +6206,11 @@ walker@^1.0.7:
   integrity sha1-vUmNtHev5XPcBBhfAR06uKjXZT8=
   dependencies:
     makeerror "1.0.12"
+
+warn-once@^0.1.0:
+  version "0.1.1"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/warn-once/-/warn-once-0.1.1.tgz#952088f4fb56896e73fd4e6a3767272a3fccce43"
+  integrity sha1-lSCI9PtWiW5z/U5qN2cnKj/MzkM=
 
 wcwidth@^1.0.1:
   version "1.0.1"
